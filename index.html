@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f6e9ff">
+    <meta name="description" content="Um cantinho de amor feito especialmente para Sarah.">
+    <title>Para Sarah, Minha Vidinha 💜</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="coracoes" aria-hidden="true"></div>
+
+    <header class="topo">
+        <a href="#inicio" class="logo">💌 Cartinhas para Você</a>
+        <span class="topo-coracao">♡ Feito com amor</span>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="inicio-conteudo">
+                <div class="decoracao">✦ ♡ ✦</div>
+
+                <p class="etiqueta">Um pequeno presente para alguém especial</p>
+
+                <h1>
+                    Para Sarah,
+                    <span>Minha Vidinha</span>
+                </h1>
+
+                <p class="descricao">
+                    Meu amor, criei este cantinho especialmente para você.
+                    Aqui, cada cartinha guarda um pouquinho dos sentimentos
+                    que tenho no coração. Espero que cada palavra consiga
+                    fazer você sorrir.
+                </p>
+
+                <div class="coracao-grande">💗</div>
+
+                <a href="#cartinhas" class="botao-principal">
+                    Abrir minhas cartinhas 💌
+                </a>
+
+                <p class="mensagem-pequena">
+                    Cada cartinha foi feita pensando em você.
+                </p>
+            </div>
+        </section>
+
+        <section id="cartinhas" class="secao-cartinhas">
+            <div class="titulo-secao">
+                <p class="etiqueta">Palavras que vêm do coração</p>
+                <h2>Minhas cartinhas para você</h2>
+                <p>
+                    Escolha um envelope, minha princesa.
+                    Existe uma mensagem esperando por você.
+                </p>
+            </div>
+
+            <div id="grade-cartas" class="grade-cartas"></div>
+        </section>
+
+        <section class="secao-surpresa">
+            <div class="surpresa-conteudo">
+                <div class="presente">🎁</div>
+
+                <p class="etiqueta">Uma última surpresa</p>
+
+                <h2>Sarah, ainda tenho algo para te dizer...</h2>
+
+                <p>
+                    Guardei uma última declaração especialmente para você.
+                    Está preparada para descobrir?
+                </p>
+
+                <button id="abrir-surpresa" class="botao-principal" type="button">
+                    Descobrir surpresa 💖
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com todo o meu amor para Sarah 💜</p>
+        <p>Minha vidinha, você é muito especial para mim.</p>
+    </footer>
+
+    <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal-fundo" data-fechar="true"></div>
+
+        <div class="modal-conteudo"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="modal-titulo"
+             tabindex="-1">
+
+            <button id="fechar-modal"
+                    class="fechar-modal"
+                    type="button"
+                    aria-label="Fechar cartinha">
+                ×
+            </button>
+
+            <div id="modal-icone" class="modal-icone">💌</div>
+
+            <p class="etiqueta">Uma mensagem para você</p>
+
+            <h2 id="modal-titulo"></h2>
+
+            <div id="modal-texto" class="texto-carta"></div>
+
+            <p class="assinatura-carta">
+                Com todo o meu amor 💜
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
